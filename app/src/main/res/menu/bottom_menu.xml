@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:title="Home"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_home_bottom_2"
+        android:id="@+id/home_bottom"/>
+    <item
+        android:title="Posts"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_inbox"
+        android:id="@+id/ask_bottom"/>
+<!--    <item-->
+<!--        android:title="Requests"-->
+<!--        app:showAsAction="always"-->
+<!--        android:icon="@drawable/ic_ask_bottom_2"-->
+<!--        android:id="@+id/requests_bottom"/>-->
+
+    <item
+        android:title="Profile"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_user"
+        android:id="@+id/profile_bottom"/>
+
+</menu>

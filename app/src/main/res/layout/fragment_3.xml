@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:background="@drawable/header_style"
+        android:fontFamily="@font/poppins_medium"
+        android:paddingLeft="15dp"
+        android:text="Create Post"
+        android:textSize="30dp"
+        android:paddingTop="10pt"
+        android:paddingBottom="10pt"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        tools:layout_editor_absoluteX="0dp" />
+
+
+
+    <EditText
+        android:id="@+id/send_post_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="10dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/custom_input"
+        android:hint="Title"
+        android:padding="10dp" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:inputType="textMultiLine"
+        android:layout_marginVertical="20dp"
+        android:layout_marginHorizontal="10dp"
+        android:gravity="top|left"
+        android:padding="10dp"
+        android:background="@drawable/custom_input"
+        android:hint="Description"
+        android:id="@+id/send_post_description"
+        />
+
+    <EditText
+        android:id="@+id/Birthday"
+        android:clickable="false"
+        android:cursorVisible="false"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:layout_marginHorizontal="10dp"
+        android:backgroundTint="@color/gray"
+        android:hint="Date &amp; Time"
+        android:layout_height="50dp"
+        android:layout_width="match_parent"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/send_post_category"
+        android:layout_marginVertical="20dp"
+        android:layout_marginHorizontal="10dp"
+        android:textColor="@color/purple_200"
+        android:textColorHint="@color/purple_200"
+        android:hint="Select Category"
+        android:padding="10dp"
+        android:background="@drawable/custom_input"
+        />
+
+    <android.widget.Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Post"
+        android:textColor="@color/white"
+        android:layout_marginTop="5dp"
+        android:layout_marginHorizontal="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/button_style"
+        android:id="@+id/send_button" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/close"
+        android:layout_gravity="clip_horizontal|bottom"
+        android:layout_marginLeft="345dp"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        app:maxImageSize="20dp"
+        app:fabCustomSize="40dp"
+        android:tint="@color/white"
+        app:backgroundTint="@color/purple_200"
+        app:srcCompat="@drawable/ic_baseline_close_24" />
+</LinearLayout>

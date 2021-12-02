@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/gradient_login_screen"
+    tools:context=".SignupActivity"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="25dp"
+        android:fontFamily="@font/poppins_medium"
+        android:text="Create Account"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="@color/black"
+        android:textSize="25dp" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:hint="Email"
+        android:paddingStart="10dp"
+        android:drawablePadding="10dp"
+        android:paddingLeft="10dp"
+        android:layout_margin="10dp"
+        android:textColorHint="@color/gray"
+        android:fontFamily="@font/poppins_regular"
+        android:textColor="@color/gray"
+        android:drawableStart="@drawable/custom_email_input"
+        android:drawableLeft="@drawable/custom_email_input"
+        android:background="@drawable/custom_input"
+        android:id="@+id/signup_email"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:hint="Password"
+        android:paddingStart="10dp"
+        android:layout_margin="10dp"
+        android:fontFamily="@font/poppins_regular"
+        android:drawablePadding="10dp"
+        android:paddingLeft="10dp"
+        android:textColorHint="@color/gray"
+        android:textColor="@color/gray"
+        android:drawableStart="@drawable/custom_password_input"
+        android:drawableLeft="@drawable/custom_password_input"
+        android:background="@drawable/custom_input"
+        android:inputType="textPassword"
+        android:id="@+id/signup_password"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:hint="Confirm Password"
+        android:paddingStart="10dp"
+        android:layout_margin="10dp"
+        android:drawablePadding="10dp"
+        android:paddingLeft="10dp"
+        android:fontFamily="@font/poppins_regular"
+        android:textColorHint="@color/gray"
+        android:textColor="@color/gray"
+        android:drawableStart="@drawable/custom_password_input"
+        android:drawableLeft="@drawable/custom_password_input"
+        android:background="@drawable/custom_input"
+        android:inputType="textPassword"
+        android:id="@+id/signup_confirm_password"
+        />
+
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Show Password"
+        android:textColor="@color/gray"
+        android:fontFamily="@font/poppins_regular"
+        android:buttonTint="@color/gray"
+        android:id="@+id/signup_checkbox"
+        />
+
+    <android.widget.Button
+        android:id="@+id/signup_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="@drawable/button_style"
+        android:text="Sign up"
+        android:fontFamily="@font/poppins_regular"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textFontWeight="@android:integer/config_longAnimTime" />
+
+    <android.widget.Button
+        android:id="@+id/signup_login_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="@drawable/button_style2"
+        android:text="Login"
+        android:fontFamily="@font/poppins_regular"
+        android:textColor="@color/purple_200"
+        android:textAllCaps="false"/>
+
+    <ProgressBar
+        android:id="@+id/signup_progressbar"
+        style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:indeterminate="true"
+        android:indeterminateTint="@color/white"
+        android:visibility="invisible" />
+
+</LinearLayout>

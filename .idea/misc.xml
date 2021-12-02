@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="../../../../layout/custom_preview.xml" value="0.30277777777777776" />
+        <entry key="..\:/Users/Maeghal/Desktop/projects/app-dev2/Eventify/app/src/main/res/drawable/button_style.xml" value="0.2856410256410256" />
+        <entry key="..\:/Users/Maeghal/Desktop/projects/app-dev2/Eventify/app/src/main/res/drawable/button_style2.xml" value="0.15729166666666666" />
+        <entry key="..\:/Users/Maeghal/Desktop/projects/app-dev2/Eventify/app/src/main/res/drawable/button_style3.xml" value="0.25833333333333336" />
+        <entry key="..\:/Users/Maeghal/Desktop/projects/app-dev2/Eventify/app/src/main/res/drawable/button_style4.xml" value="0.24351851851851852" />
+        <entry key="..\:/Users/Maeghal/Desktop/projects/app-dev2/Eventify/app/src/main/res/drawable/circle_button.xml" value="0.15729166666666666" />
+        <entry key="..\:/Users/Maeghal/Desktop/projects/app-dev2/Eventify/app/src/main/res/drawable/circle_proble.xml" value="0.22407407407407406" />
+        <entry key="..\:/Users/Maeghal/Desktop/projects/app-dev2/Eventify/app/src/main/res/drawable/circle_profile.xml" value="0.22407407407407406" />
+        <entry key="..\:/Users/Maeghal/Desktop/projects/app-dev2/Eventify/app/src/main/res/drawable/divider.xml" value="0.14212962962962963" />
+        <entry key="..\:/Users/Maeghal/Desktop/projects/app-dev2/Eventify/app/src/main/res/drawable/gradient_login_screen.xml" value="0.1" />
+        <entry key="..\:/Users/Maeghal/Desktop/projects/app-dev2/Eventify/app/src/main/res/drawable/gradient_splash_screen.xml" value="0.1" />
+        <entry key="..\:/Users/Maeghal/Desktop/projects/app-dev2/Eventify/app/src/main/res/drawable/header_style.xml" value="0.1" />
+        <entry key="..\:/Users/Maeghal/Desktop/projects/app-dev2/Eventify/app/src/main/res/drawable/ic_all.xml" value="0.1" />
+        <entry key="..\:/Users/Maeghal/Desktop/projects/app-dev2/Eventify/app/src/main/res/drawable/ic_all2.xml" value="0.15729166666666666" />
+        <entry key="..\:/Users/Maeghal/Desktop/projects/app-dev2/Eventify/app/src/main/res/drawable/ic_all3.xml" value="0.15729166666666666" />
+        <entry key="..\:/Users/Maeghal/Desktop/projects/app-dev2/Eventify/app/src/main/res/drawable/ic_ask_bottom_2.xml" value="0.1" />
+        <entry key="..\:/Users/Maeghal/Desktop/projects/app-dev2/Eventify/app/src/main/res/drawable/ic_home_bottom_2.xml" value="0.2547945205479452" />
+        <entry key="..\:/Users/Maeghal/Desktop/projects/app-dev2/Eventify/app/src/main/res/drawable/ic_law.xml" value="0.1" />
+        <entry key="..\:/Users/Maeghal/Desktop/projects/app-dev2/Eventify/app/src/main/res/drawable/ic_law2.xml" value="0.14212962962962963" />
+        <entry key="..\:/Users/Maeghal/Desktop/projects/app-dev2/Eventify/app/src/main/res/drawable/ic_resource_case.xml" value="0.14212962962962963" />
+        <entry key="..\:/Users/Maeghal/Desktop/projects/app-dev2/Eventify/app/src/main/res/drawable/ic_tech.xml" value="0.14212962962962963" />
+        <entry key="..\:/Users/Maeghal/Desktop/projects/app-dev2/Eventify/app/src/main/res/drawable/ic_undraw_personal_information_re_vw8a.xml" value="0.290625" />
+        <entry key="..\:/Users/Maeghal/Desktop/projects/app-dev2/Eventify/app/src/main/res/drawable/ic_undraw_profile_data_re_v81r.xml" value="0.15729166666666666" />
+        <entry key="..\:/Users/Maeghal/Desktop/projects/app-dev2/Eventify/app/src/main/res/drawable/ic_x.xml" value="0.15729166666666666" />
+        <entry key="..\:/Users/Maeghal/Desktop/projects/app-dev2/Eventify/app/src/main/res/drawable/neumorphic_base.xml" value="0.2547945205479452" />
+        <entry key="..\:/Users/Maeghal/Desktop/projects/app-dev2/Eventify/app/src/main/res/drawable/neumorphic_box.xml" value="0.2547945205479452" />
+        <entry key="..\:/Users/Maeghal/Desktop/projects/app-dev2/Eventify/app/src/main/res/drawable/neumorphic_fore.xml" value="0.2547945205479452" />
+        <entry key="..\:/Users/Maeghal/Desktop/projects/app-dev2/Eventify/app/src/main/res/drawable/posts_style.xml" value="0.25135135135135134" />
+        <entry key="..\:/Users/Maeghal/Desktop/projects/app-dev2/Eventify/app/src/main/res/drawable/profile_page_image.xml" value="0.1" />
+        <entry key="..\:/Users/Maeghal/Desktop/projects/app-dev2/Eventify/app/src/main/res/drawable/rounded_edittext.xml" value="0.25833333333333336" />
+        <entry key="..\:/Users/Maeghal/Desktop/projects/app-dev2/Eventify/app/src/main/res/layout/activity_create_profile.xml" value="0.21875" />
+        <entry key="..\:/Users/Maeghal/Desktop/projects/app-dev2/Eventify/app/src/main/res/layout/activity_login.xml" value="0.39357429718875503" />
+        <entry key="..\:/Users/Maeghal/Desktop/projects/app-dev2/Eventify/app/src/main/res/layout/activity_main.xml" value="0.13323201621073963" />
+        <entry key="..\:/Users/Maeghal/Desktop/projects/app-dev2/Eventify/app/src/main/res/layout/activity_post_click.xml" value="0.264" />
+        <entry key="..\:/Users/Maeghal/Desktop/projects/app-dev2/Eventify/app/src/main/res/layout/activity_signup.xml" value="0.264945652173913" />
+        <entry key="..\:/Users/Maeghal/Desktop/projects/app-dev2/Eventify/app/src/main/res/layout/activity_splash_screen.xml" value="0.27447916666666666" />
+        <entry key="..\:/Users/Maeghal/Desktop/projects/app-dev2/Eventify/app/src/main/res/layout/all_posts.xml" value="0.21875" />
+        <entry key="..\:/Users/Maeghal/Desktop/projects/app-dev2/Eventify/app/src/main/res/layout/fragment_1.xml" value="0.41811175337186895" />
+        <entry key="..\:/Users/Maeghal/Desktop/projects/app-dev2/Eventify/app/src/main/res/layout/fragment_2.xml" value="0.21875" />
+        <entry key="..\:/Users/Maeghal/Desktop/projects/app-dev2/Eventify/app/src/main/res/layout/fragment_3.xml" value="0.1911231884057971" />
+        <entry key="..\:/Users/Maeghal/Desktop/projects/app-dev2/Eventify/app/src/main/res/layout/fragment_4.xml" value="0.4" />
+        <entry key="..\:/Users/Maeghal/Desktop/projects/app-dev2/Eventify/app/src/main/res/layout/item.xml" value="0.23052536231884058" />
+        <entry key="..\:/Users/Maeghal/Desktop/projects/app-dev2/Eventify/app/src/main/res/layout/post_new.xml" value="0.12777777777777777" />
+        <entry key="..\:/Users/Maeghal/Desktop/projects/app-dev2/Eventify/app/src/main/res/menu/bottom_menu.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable-v24/ic_baseline_category_right_24.xml" value="0.2782222222222222" />
+        <entry key="app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.18385416666666668" />
+        <entry key="app/src/main/res/drawable/button_style.xml" value="0.23645833333333333" />
+        <entry key="app/src/main/res/drawable/custom_email_input.xml" value="0.28703703703703703" />
+        <entry key="app/src/main/res/drawable/custom_input.xml" value="0.28703703703703703" />
+        <entry key="app/src/main/res/drawable/custom_password_input.xml" value="0.28703703703703703" />
+        <entry key="app/src/main/res/drawable/email_focused.xml" value="0.28703703703703703" />
+        <entry key="app/src/main/res/drawable/email_not_focused.xml" value="0.275" />
+        <entry key="app/src/main/res/drawable/ic_baseline_accessibility_new_24.xml" value="0.2782222222222222" />
+        <entry key="app/src/main/res/drawable/ic_baseline_category_24.xml" value="0.28055555555555556" />
+        <entry key="app/src/main/res/drawable/ic_baseline_category_triangle_24.xml" value="0.2782222222222222" />
+        <entry key="app/src/main/res/drawable/ic_baseline_email_24.xml" value="0.28703703703703703" />
+        <entry key="app/src/main/res/drawable/ic_baseline_lock_24.xml" value="0.28703703703703703" />
+        <entry key="app/src/main/res/drawable/ic_baseline_work_outline_24.xml" value="0.2782222222222222" />
+        <entry key="app/src/main/res/drawable/ic_group_17eventify_logo.xml" value="0.29259259259259257" />
+        <entry key="app/src/main/res/drawable/ic_launcher_background.xml" value="0.18385416666666668" />
+        <entry key="app/src/main/res/drawable/ic_map_pin.xml" value="0.2782222222222222" />
+        <entry key="app/src/main/res/drawable/ic_phone.xml" value="0.2782222222222222" />
+        <entry key="app/src/main/res/drawable/lock_focused.xml" value="0.28703703703703703" />
+        <entry key="app/src/main/res/drawable/lock_not_focused.xml" value="0.2851851851851852" />
+        <entry key="app/src/main/res/drawable/posts_style.xml" value="0.2671875" />
+        <entry key="app/src/main/res/layout/activity_create_profile.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/activity_login.xml" value="0.25465127668614795" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.13496932515337423" />
+        <entry key="app/src/main/res/layout/activity_post_click.xml" value="0.21875" />
+        <entry key="app/src/main/res/layout/activity_signup.xml" value="0.2477355072463768" />
+        <entry key="app/src/main/res/layout/activity_splash_screen.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/all_posts.xml" value="0.165" />
+        <entry key="app/src/main/res/layout/fragment_1.xml" value="0.22735507246376813" />
+        <entry key="app/src/main/res/layout/fragment_2.xml" value="0.22735507246376813" />
+        <entry key="app/src/main/res/layout/fragment_3.xml" value="0.22735507246376813" />
+        <entry key="app/src/main/res/layout/fragment_4.xml" value="0.22735507246376813" />
+        <entry key="app/src/main/res/layout/item.xml" value="0.268018018018018" />
+        <entry key="app/src/main/res/layout/post_new.xml" value="0.2105978260869565" />
+        <entry key="app/src/main/res/menu/bottom_menu.xml" value="0.3098958333333333" />
+        <entry key="app/src/main/res/mipmap-anydpi-v26/ic_bml_round.xml" value="0.2782222222222222" />
+        <entry key="app/src/main/res/mipmap-anydpi-v26/ic_college.xml" value="0.2045045045045045" />
+        <entry key="app/src/main/res/mipmap-anydpi-v26/ic_college_round.xml" value="0.2045045045045045" />
+        <entry key="app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.2045045045045045" />
+        <entry key="app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.2045045045045045" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

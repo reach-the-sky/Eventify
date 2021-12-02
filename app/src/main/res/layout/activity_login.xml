@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/gradient_login_screen"
+    tools:context=".LoginActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Welcome back!"
+        android:fontFamily="@font/poppins_medium"
+        android:textColor="@color/black"
+        android:textAlignment="center"
+        android:textSize="25dp"
+        android:layout_marginBottom="50dp"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:hint="Email"
+        android:paddingStart="10dp"
+        android:drawablePadding="10dp"
+        android:paddingLeft="10dp"
+        android:layout_margin="10dp"
+        android:textColorHint="@color/gray"
+        android:fontFamily="@font/poppins_regular"
+        android:textColor="@color/gray"
+        android:drawableStart="@drawable/custom_email_input"
+        android:drawableLeft="@drawable/custom_email_input"
+        android:background="@drawable/custom_input"
+        android:id="@+id/login_email"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:hint="Password"
+        android:paddingStart="10dp"
+        android:layout_margin="10dp"
+        android:drawablePadding="10dp"
+        android:paddingLeft="10dp"
+        android:textColorHint="@color/gray"
+        android:textColor="@color/gray"
+        android:fontFamily="@font/poppins_regular"
+        android:drawableStart="@drawable/custom_password_input"
+        android:drawableLeft="@drawable/custom_password_input"
+        android:background="@drawable/custom_input"
+        android:inputType="textPassword"
+        android:id="@+id/login_password"
+        />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Show Password"
+        android:textColor="@color/gray"
+        android:fontFamily="@font/poppins_regular"
+        android:buttonTint="@color/gray"
+        android:id="@+id/login_checkbox"
+        />
+    <android.widget.Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:textFontWeight="@android:integer/config_longAnimTime"
+        android:text="Login"
+        android:backgroundTint="@color/purple_200"
+        android:textColor="@color/white"
+        android:paddingTop="15dp"
+        android:paddingBottom="15dp"
+        android:fontFamily="@font/poppins_regular"
+        android:background="@drawable/button_style"
+        android:id="@+id/login_button"
+        android:textAllCaps="false"
+        />
+
+    <android.widget.Button
+        android:id="@+id/login_signup_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="@drawable/button_style2"
+        android:fontFamily="@font/poppins_regular"
+        android:textColor="@color/purple_200"
+        android:text="Don't have an Account? Sign up."
+        android:textAllCaps="false"
+        />
+
+    <ProgressBar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:indeterminate="true"
+        android:indeterminateTint="@color/white"
+        style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+        android:layout_marginTop="20dp"
+        android:visibility="invisible"
+        android:id="@+id/login_progressbar"
+        />
+
+</LinearLayout>

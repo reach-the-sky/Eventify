@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/gradient_login_screen"
+    tools:context=".CreateProfile">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Create Profile"
+        android:fontFamily="@font/poppins_medium"
+        android:textColor="@color/black"
+        android:textAlignment="center"
+        android:textSize="25dp"
+        />
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        app:cardPreventCornerOverlap="false"
+        app:cardCornerRadius="75dp"
+        android:layout_marginBottom="50dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.07"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.09"
+        >
+
+        <ImageView
+            android:id="@+id/iv_cp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/ic_user"
+            android:scaleType="fitCenter"
+            tools:ignore="SpeakableTextPresentCheck" />
+    </androidx.cardview.widget.CardView>
+
+<!--    <EditText-->
+<!--        android:id="@+id/profile_name"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_margin="4dp"-->
+<!--        android:drawableStart="@drawable/ic_baseline_person_outline_24"-->
+<!--        android:drawablePadding="7dp"-->
+<!--        android:text="krishna"-->
+<!--        android:hint="Full Name"-->
+<!--        android:minHeight="48dp"-->
+<!--        android:textColor="@color/black" />-->
+    <EditText
+        android:id="@+id/profile_name"
+        android:layout_width="369dp"
+        android:layout_height="60dp"
+        android:background="@drawable/rounded_edittext"
+        android:fontFamily="@font/poppins_regular"
+        android:paddingLeft="10dp"
+        android:textColor="@color/black"
+        android:textSize="16dp"
+        android:layout_margin="4dp"
+        android:drawablePadding="7dp"
+        android:hint="Name"
+        android:drawableStart="@drawable/ic_baseline_person_outline_24"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.751" />
+
+<!--    <EditText-->
+<!--        android:id="@+id/profile_profession"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_margin="4dp"-->
+<!--        android:drawableStart="@drawable/ic_baseline_work_outline_24"-->
+<!--        android:drawablePadding="7dp"-->
+<!--        android:text="krishna"-->
+<!--        android:hint="Profession"-->
+<!--        android:minHeight="48dp"-->
+<!--        android:textColor="@color/black" />-->
+    <EditText
+        android:id="@+id/profile_profession"
+        android:layout_width="369dp"
+        android:layout_height="60dp"
+        android:background="@drawable/rounded_edittext"
+        android:fontFamily="@font/poppins_regular"
+        android:paddingLeft="10dp"
+        android:textColor="@color/black"
+        android:textSize="16dp"
+        android:layout_margin="4dp"
+        android:drawablePadding="7dp"
+        android:hint="Profession"
+        android:drawableStart="@drawable/ic_baseline_work_outline_24"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.751" />
+
+<!--    <EditText-->
+<!--        android:id="@+id/profile_bio"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_margin="4dp"-->
+<!--        android:drawableStart="@drawable/ic_baseline_accessibility_new_24"-->
+<!--        android:drawablePadding="7dp"-->
+<!--        android:text="krishna"-->
+<!--        android:hint="Bio"-->
+<!--        android:minHeight="48dp"-->
+<!--        android:textColor="@color/black" />-->
+    <EditText
+        android:id="@+id/profile_bio"
+        android:layout_width="369dp"
+        android:layout_height="60dp"
+        android:background="@drawable/rounded_edittext"
+        android:fontFamily="@font/poppins_regular"
+        android:paddingLeft="10dp"
+        android:textColor="@color/black"
+        android:textSize="16dp"
+        android:layout_margin="4dp"
+        android:drawablePadding="7dp"
+        android:hint="Bio"
+        android:drawableStart="@drawable/ic_baseline_accessibility_new_24"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.751" />
+
+
+<!--    <EditText-->
+<!--        android:id="@+id/profile_email"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_margin="4dp"-->
+<!--        android:drawableStart="@drawable/email_not_focused"-->
+<!--        android:drawablePadding="7dp"-->
+<!--        android:text="krishna"-->
+<!--        android:hint="Email"-->
+<!--        android:minHeight="48dp"-->
+<!--        android:textColor="@color/black" />-->
+    <EditText
+        android:id="@+id/profile_email"
+        android:layout_width="369dp"
+        android:layout_height="60dp"
+        android:background="@drawable/rounded_edittext"
+        android:fontFamily="@font/poppins_regular"
+        android:paddingLeft="10dp"
+        android:textColor="@color/black"
+        android:textSize="16dp"
+        android:layout_margin="4dp"
+        android:drawablePadding="7dp"
+        android:hint="Email"
+        android:drawableStart="@drawable/email_not_focused"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.751" />
+<!--    <EditText-->
+<!--        android:id="@+id/profile_website"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_margin="4dp"-->
+<!--        android:drawableStart="@drawable/ic_baseline_web_24"-->
+<!--        android:drawablePadding="7dp"-->
+<!--        android:hint="Your Website"-->
+<!--        android:text="krishna"-->
+<!--        android:minHeight="48dp"-->
+<!--        android:textColor="@color/black" />-->
+    <EditText
+        android:id="@+id/profile_website"
+        android:layout_width="369dp"
+        android:layout_height="60dp"
+        android:background="@drawable/rounded_edittext"
+        android:fontFamily="@font/poppins_regular"
+        android:paddingLeft="10dp"
+        android:textColor="@color/black"
+        android:textSize="16dp"
+        android:layout_margin="4dp"
+        android:drawablePadding="7dp"
+        android:hint="Website"
+        android:drawableStart="@drawable/ic_baseline_web_24"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.751" />
+
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Save"
+        android:background="@drawable/button_style"
+        android:backgroundTint="@color/purple_200"
+        android:fontFamily="@font/poppins_regular"
+        android:textColor="@color/white"
+        android:layout_marginTop="10dp"
+        android:layout_margin="10dp"
+        android:id="@+id/profile_button" />
+
+    <ProgressBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:visibility="invisible"
+        android:id="@+id/profile_progress"/>
+
+
+
+</LinearLayout>
